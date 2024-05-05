@@ -5,6 +5,7 @@ import { Accordion } from "flowbite-react";
 
 export default function Component() {
   return (
+    <div className="py-8 px-4 w-3/4 lg:py-16 lg:px-6">
     <Accordion collapseAll>
       <Accordion.Panel>
         <Accordion.Title>What is Flowbite?</Accordion.Title>
@@ -73,5 +74,6 @@ export default function Component() {
         </Accordion.Content>
       </Accordion.Panel>
     </Accordion>
+    </div>
   );
 }
