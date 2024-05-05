@@ -5,6 +5,7 @@ import OurFooter from "./components/Footer";
 import Hero from "./components/Hero";
 import ContactSection from "./components/Contact";
 import Newsletter from "./components/Newsletter";
+import Qna from "./components/Questions";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Hero/>
       <Newsletter/>
       <ContactSection/>
+      <Qna/>
       <OurFooter/>
     </main>
   );
