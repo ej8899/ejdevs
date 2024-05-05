@@ -6,7 +6,7 @@ import { BsDribbble, BsFacebook, BsGithub, BsInstagram, BsTwitter } from "react-
 
 export default function Component() {
   return (
-    <Footer container>
+    <Footer container className="bg-orange-200">
       <div className="w-full">
         <div className="grid w-full justify-between sm:flex sm:justify-between md:flex md:grid-cols-1">
           <div>
@@ -41,7 +41,7 @@ export default function Component() {
             </div>
           </div>
         </div>
-        <Footer.Divider />
+        <Footer.Divider/>
         <div className="w-full sm:flex sm:items-center sm:justify-between">
           <Footer.Copyright href="#" by="EJDevs™" year={2024} />
           <div className="mt-4 flex space-x-6 sm:mt-0 sm:justify-center">

@@ -6,9 +6,9 @@ import { Button } from "flowbite-react";
 
 export default function Component() {
   return (
-    <section className="bg-white dark:bg-gray-900">
+    <section className="bg-white dark:bg-gray-700">
     <div className="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
-        <div className="gap-16 justify-between items-center p-6 text-white bg-gray-900 rounded-lg dark:bg-gray-800 lg:flex lg:gap-24 md:p-12">
+        <div className="gap-16 justify-between items-center p-6 text-white bg-gray-600 rounded-lg dark:bg-gray-800 lg:flex lg:gap-24 md:p-12">
             <div className="w-full">
                 <h2 className="mb-4 text-3xl tracking-tight font-extrabold sm:text-4xl">Sign up for our newsletter</h2>
                 <p className="font-light text-gray-400 sm:text-xl">Stay up to date with the roadmap progress, announcements and exclusive discounts feel free to sign up with your email.</p>
